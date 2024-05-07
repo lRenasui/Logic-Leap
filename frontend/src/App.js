@@ -1,45 +1,49 @@
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import Home from './views/home';
-
 
 function App() {
   return (
     <Router>
       <div className="App">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="images/logicleap.png" alt="Logo" height="40" />
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-        <ul class="navbar-nav mb-4 mb-lg-0">
-          <li class="nav-item me-3"><a class="nav-link active" aria-current="page" href="#">Dashboard</a></li>
-          <li class="nav-item me-3"><a class="nav-link active" aria-current="page" href="#">Sales</a></li>
-          <li class="nav-item me-3"><a class="nav-link active" aria-current="page" href="#">Costumers</a></li>
-          <li class="nav-item me-3"><a class="nav-link active" aria-current="page" href="#">Packages</a></li>
-          <li class="nav-item me-3"><a class="nav-link active" aria-current="page" href="#">Products</a></li>
-          <li class="nav-item me-3"><a class="nav-link active" aria-current="page" href="#">Custom Plans</a></li>
-          <li class="nav-item me-3"><a class="nav-link active" aria-current="page" href="#">Support</a></li>
-        </ul>
-        <ul class="navbar-nav ms-auto"> 
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-bell"></i></a> 
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-user-circle"></i></a> 
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+          <div className="container-fluid">
+            <a className="navbar-brand" href="#">
+              <img src="images/logicleap.png" alt="Logo" height="40" />
+            </a>
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse justify-content-center">
+              <div className="container">
+                <div className="row justify-content-center">
+                  <div className="col-md-8">
+                    <ul className="navbar-nav mb-2 mb-lg-0">
+                      <li className="nav-item me-3"><Link className="nav-link active" to="/">Dashboard</Link></li>
+                      <li className="nav-item me-3"><Link className="nav-link" to="/sales">Sales</Link></li>
+                      <li className="nav-item me-3"><Link className="nav-link" to="/customers">Customers</Link></li>
+                      <li className="nav-item me-3"><Link className="nav-link" to="/packages">Packages</Link></li>
+                      <li className="nav-item me-3"><Link className="nav-link" to="/products">Products</Link></li>
+                      <li className="nav-item me-3"><Link className="nav-link" to="/custom-plans">Custom Plans</Link></li>
+                      <li className="nav-item me-3"><Link className="nav-link" to="/support">Support</Link></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ul className="navbar-nav ms-auto">
+              <li className="nav-item">
+                <a className="nav-link" href="#"><i className="fas fa-bell"></i></a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#"><i className="fas fa-user-circle"></i></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
         <Routes>
           <Route path="/" element={<Home />} />
-
+          {/* Define other routes as needed */}
         </Routes>
       </div>
     </Router>
