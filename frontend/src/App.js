@@ -8,41 +8,35 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <a className="navbar-brand" href="#">Navbar</a>
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav mr-auto">
-              <li className="nav-item active">
-                <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">Link</a>
-              </li>
-              <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown
-                </a>
-                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item" href="#">Action</a>
-                  <a className="dropdown-item" href="#">Another action</a>
-                  <div className="dropdown-divider"></div>
-                  <a className="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link disabled" href="#">Disabled</a>
-              </li>
-            </ul>
-            <form className="form-inline my-2 my-lg-0">
-              <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-          </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="images/logicleap.png" alt="Logo" height="40" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-4 mb-lg-0">
+          <li class="nav-item me-3"><a class="nav-link active" aria-current="page" href="#">Dashboard</a></li>
+          <li class="nav-item me-3"><a class="nav-link active" aria-current="page" href="#">Sales</a></li>
+          <li class="nav-item me-3"><a class="nav-link active" aria-current="page" href="#">Costumers</a></li>
+          <li class="nav-item me-3"><a class="nav-link active" aria-current="page" href="#">Packages</a></li>
+          <li class="nav-item me-3"><a class="nav-link active" aria-current="page" href="#">Products</a></li>
+          <li class="nav-item me-3"><a class="nav-link active" aria-current="page" href="#">Custom Plans</a></li>
+          <li class="nav-item me-3"><a class="nav-link active" aria-current="page" href="#">Support</a></li>
+        </ul>
+        <ul class="navbar-nav ms-auto"> 
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-bell"></i></a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-user-circle"></i></a> 
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
         <Routes>
           <Route path="/" element={<Home />} />
 
