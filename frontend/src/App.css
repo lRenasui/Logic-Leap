@@ -1,0 +1,12 @@
+.nav-link{
+    height: 100%;
+}
+.nav-link.active{
+    border-bottom: 0.1rem black solid;
+}
+.px-10vw{
+    padding: 0 10vw;
+}
+.mx-10vw{
+    margin: 0 10vw;
+}
