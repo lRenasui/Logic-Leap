@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Metropolis';
+    src: url('font/Metropolis-Regular.otf') format('otf')
+  }
+  body{
+    font-family: 'Metropolis', sans-serif;
+  }
 .nav-link{
     height: 100%;
 }
@@ -9,4 +16,7 @@
 }
 .mx-10vw{
     margin: 0 10vw;
+}
+.bg-gray1{
+    background-color: #F0F1F1;
 }
