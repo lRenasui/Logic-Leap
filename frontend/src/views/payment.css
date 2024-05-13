@@ -1,0 +1,59 @@
+
+  .col-md-6{
+    margin-top:30px;
+}
+
+.btn-primary {
+  width: 100%;
+  background-color: #007BFF;  
+  border: none;               
+  color: white;              
+  padding: 10px 20px;         
+  text-align: center;         
+  text-decoration: none;      
+  display: inline-block;     
+  font-size: 16px;            
+  border-radius: 100px;         
+  cursor: pointer;            
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2); 
+  transition: background-color 0.3s, box-shadow 0.3s; 
+}
+
+
+.product-details {
+  background-color: #fff; /* White background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Light box-shadow */
+  font-family: Arial, sans-serif; /* Consistent font family */
+}
+
+.product-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Space below the header */
+}
+
+.product-title {
+  font-size: 24px; /* Larger font size for the title */
+  margin-left: 10px; /* Space between logo and title */
+}
+
+.product-info {
+  font-size: 16px; /* Appropriate font size for information */
+  color: #666; 
+  margin-bottom:0px;
+  margin-top:20px;
+}
+
+.product-price {
+  font-size: 18px; /* Slightly larger font size for price */
+  color: #666; 
+}
+
+.form-control {
+  background-color: #F0F1F1;
+}
+
+.form-select {
+  background-color: #F0F1F1;
+}
