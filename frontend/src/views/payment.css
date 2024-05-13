@@ -48,6 +48,8 @@
 .product-price {
   font-size: 18px; /* Slightly larger font size for price */
   color: #666; 
+  margin-bottom:0px;
+  padding-bottom:0px;
 }
 
 .form-control {

@@ -15,11 +15,20 @@ export default function Payment() {
                 <span className="product-title">Creativortex</span>
               </div>
               <p className="product-info">Up to 100 users - Initial Payment</p>
-              <p className="product-price">€649.99 a year</p>
+              <div className="d-flex justify-content-between mb-2">
+                    <p>€649.99 a year</p>
+                    <p className="product-price">€649.99</p>
+                </div>
               <hr></hr>
-              <h3>Total: €649.99</h3>
+              <div className="d-flex justify-content-between mb-2">
+                    <p>Total</p>
+                    <p>€649.99</p>
+                </div>
             </div>
           </div>
+
+
+          
           {/* Section for the payment form */}
           <div className="col-md-6">
             <div className="bg-white">
