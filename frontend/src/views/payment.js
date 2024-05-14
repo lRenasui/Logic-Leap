@@ -101,8 +101,8 @@ export default function Payment() {
                     />
                   </div>
                 </div>
-                <br></br>
-                <button type="submit" className="btn-primary w-100">
+                <span class="stripe-info mt-3 d-flex justify-content-center">Powered by <img src="images/stripe.png" height={25}/></span>
+                <button type="submit" className="btn-primary w-100 mt-1">
                   Finish payment
                 </button>
               </form>

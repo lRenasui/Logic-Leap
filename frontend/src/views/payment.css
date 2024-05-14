@@ -1,5 +1,5 @@
 
-.product-info {
+.product-info, .stripe-info {
   color: var(--gray-3);
 }
 
