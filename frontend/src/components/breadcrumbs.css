@@ -4,7 +4,7 @@
 .breadcrumb-item::before{
     color: var(--gray-3)!important;
 }
-.breadcrumb-item, .breadcrumb-item > a{
+.breadcrumb-item > a{
     color: var(--gray-3);
     text-decoration: none;
 }

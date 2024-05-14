@@ -8,7 +8,7 @@ function Breadcrumbs({ page1, page2, page3, link1, link2 }) {
     return (
         <nav aria-label="breadcrumb" class="breadcrumb-wrapper px-10vw">
             <ol className="breadcrumb">
-                <li className="breadcrumb-item"><FontAwesomeIcon icon={faHouse} /></li>
+                <li className="breadcrumb-item"><Link to="/"><FontAwesomeIcon icon={faHouse} /></Link></li>
                 <li className="breadcrumb-item"><Link to={link1}>{page1}</Link></li>
                 {link2 ?
                     <li className="breadcrumb-item"><Link to={link2}>{page2}</Link></li>
