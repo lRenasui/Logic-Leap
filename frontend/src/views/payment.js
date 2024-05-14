@@ -1,4 +1,3 @@
-import CardIcon from "../components/card-icon";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./payment.css";
 
@@ -7,7 +6,7 @@ export default function Payment() {
     <div>
       <div className="container">
         <div className="row">
-          {/* Section for the product details */}
+
           <div className="col-md-6">
             <div className="bg-white">
               <div className="product-header">
@@ -27,9 +26,6 @@ export default function Payment() {
             </div>
           </div>
 
-
-          
-          {/* Section for the payment form */}
           <div className="col-md-6">
             <div className="bg-white">
               <form>
@@ -88,9 +84,7 @@ export default function Payment() {
                     <label htmlFor="country" className="form-label">
                       Country
                     </label>
-                    <select className="form-select" id="country">
-                      <option selected>Portugal</option>
-                      {/* Additional country options */}
+                    <select className="form-select" id="country">                      <option selected>Portugal</option>
                     </select>
                   </div>
                   <div className="col-sm-6">
