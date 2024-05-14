@@ -14,6 +14,6 @@ export default function Card({ title, category, image, description, price, disco
                     <h5 class="card-text fs-5">{price}</h5>
                 </div>
             </div>
-        </div>
+        </div>  
     );
 }
