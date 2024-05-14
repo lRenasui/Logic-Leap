@@ -14,13 +14,12 @@ function App() {
     <Router>
       <div className="App">
         <nav className="navbar bg-white px-10vw">
-          <div className="container-fluid">
-            <a className="navbar-brand">
+            <Link to="/" className="navbar-brand">
               <img src="images/logicleap.png" alt="Logo" height="40" />
-            </a>
+            </Link>
             <span className="d-flex">
               <form className="inline-form">
-                <div className="input-group bg-gray1 rounded-2">
+                <div className="input-group rounded-2">
                   <input type="text" className="form-control bg-transparent border-0" placeholder="Search" />
                   <div className="input-group-btn">
                     <button className="btn btn-default" type="submit">
@@ -36,7 +35,6 @@ function App() {
                 <img src={process.env.PUBLIC_URL + "/logo192.png"} height="20"></img>
               </button>
               </span>
-          </div>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
