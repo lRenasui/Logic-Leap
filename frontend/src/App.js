@@ -7,8 +7,6 @@ import './App.css';
 import Home from './views/home';
 import Payment from './views/payment';
 
-const img = require('./logo.svg');
-
 function App() {
   return (
     <Router>
