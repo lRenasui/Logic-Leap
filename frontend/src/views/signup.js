@@ -10,7 +10,7 @@ export default function SignUp() {
             <div className="card">
               <div className="card-body">
                 <h3 className="card-title text-left"><strong>Sign up</strong></h3>
-                <p className="text-left">Already have an account? <a href="#">Login</a></p>
+                <p className="text-left">Already have an account? <a className="linknormal" href="#">Login</a></p>
                 <form>
                   <div className="row g-3">
                     <div className="col-sm-6">

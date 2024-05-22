@@ -88,7 +88,7 @@ body {
 
 /*Links*/
 
-a {
+.linknormal {
     font-family: 'Metropolis Bold', sans-serif;
     color: var(--black);
     text-decoration:none;
