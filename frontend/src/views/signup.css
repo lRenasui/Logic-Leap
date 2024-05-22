@@ -1,7 +1,12 @@
 .signup-page {
-  background-color: #f0f0f0; /* Light grey background */
-  min-height: 100vh; /* Full height of the viewport */
+  background-color: #f0f0f0; 
+  min-height: 100vh; 
   display: flex;
-  align-items: center; /* Center the container vertically */
-  justify-content: center; /* Center the container horizontally */
+  align-items: center; 
+  justify-content: center; 
+}
+
+.card-title {
+font-family: 'Metropolis Bold', sans-serif;
+
 }

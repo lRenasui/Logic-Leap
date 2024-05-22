@@ -86,3 +86,10 @@ body {
     border: .1rem solid var(--gray-2);
   }
 
+/*Links*/
+
+a {
+    font-family: 'Metropolis Bold', sans-serif;
+    color: var(--black);
+    text-decoration:none;
+}
