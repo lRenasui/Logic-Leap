@@ -1,4 +1,7 @@
-body {
-    background-color: #F0F1F1; 
-  }
-  
+.signup-page {
+  background-color: #f0f0f0; /* Light grey background */
+  min-height: 100vh; /* Full height of the viewport */
+  display: flex;
+  align-items: center; /* Center the container vertically */
+  justify-content: center; /* Center the container horizontally */
+}
