@@ -6,6 +6,7 @@ import { faBell } from "@fortawesome/free-regular-svg-icons";
 import './App.css';
 import Home from './views/home';
 import Payment from './views/payment';
+import SignUp from './views/signup'
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/payment" element={<Payment />} />
         {/* Define other routes as needed */}
+        <Route path="/signup" element={<SignUp />} />
       </Routes>
     </div>
     </Router >
