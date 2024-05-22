@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./signup.css";
 
 export default function SignUp() {
   return (
@@ -94,7 +95,7 @@ export default function SignUp() {
                   placeholder="Inteligência Lda."
                 />
               </div>
-              <div className="col-sm-12">
+              <div className="col-sm-12" style={{ marginBottom: '2rem' }}>
                 <label htmlFor="businessWebsite" className="form-label">
                   Business' website
                 </label>
