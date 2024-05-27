@@ -7,6 +7,7 @@ import './App.css';
 import Home from './views/home';
 import Payment from './views/payment';
 import SignUp from './views/signup'
+import PaymentHistory from './views/paymenthistory'
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         <Route path="/payment" element={<Payment />} />
         {/* Define other routes as needed */}
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/paymenthistory" element={<PaymentHistory />} />
       </Routes>
     </div>
     </Router >
