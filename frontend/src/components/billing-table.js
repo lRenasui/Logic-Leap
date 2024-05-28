@@ -1,4 +1,4 @@
-import React from 'react';
+import './billing-table.css';
 
 const BillingTable = ({ title, type, billingDate, paymentDate, status, maxUsers, billingAmount, startDate, action }) => { 
 
